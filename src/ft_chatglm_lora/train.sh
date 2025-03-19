@@ -25,7 +25,7 @@ CUDA_VISIBLE_DEVICES=0 python src/ft_chatglm_lora/main.py \
     --per_device_train_batch_size 8 \
     --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps 2 \
-    --max_steps 10000 \
+    --max_steps 1000 \
     --logging_steps 10 \
     --save_steps 10 \
     --learning_rate $LR \
