@@ -27,7 +27,7 @@ CUDA_VISIBLE_DEVICES=0 python src/ft_chatglm_lora/main.py \
     --gradient_accumulation_steps 2 \
     --max_steps 1000 \
     --logging_steps 10 \
-    --save_steps 10 \
+    --save_steps 20 \
     --learning_rate $LR \
     --lora_rank ${lora_rank} \
     --trainable ${lora_trainable} \
