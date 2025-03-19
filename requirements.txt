@@ -8,3 +8,5 @@ sentencepiece==0.1.99
 torch==1.12.0+cu113
 tqdm==4.65.0
 transformers==4.28.1
+
+datasets
